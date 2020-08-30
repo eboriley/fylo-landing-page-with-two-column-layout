@@ -1,0 +1,29 @@
+$primary-color-dark: hsl(243, 87%, 12%);
+$primary-color-saturated: hsl(238, 22%, 44%);
+
+$accent-blue: hsl(224, 93%, 58%);
+$accent-cyan: hsl(170, 45%, 43%);
+
+$neutral-grayish-blue: hsl(240, 75%, 98%);
+$neutral-gray: hsl(0, 0%, 75%);
+
+$heading-typo-callbacks: 'Raleway', sans-serif;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    // background-color: $neutral-grayish-blue;
+}
+
+@mixin media-lg-x {
+    @media screen and(min-width: 1280px){
+        @content
+    }
+}

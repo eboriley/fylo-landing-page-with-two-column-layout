@@ -1,0 +1,566 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+header .nav {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+header .nav img {
+  width: 5rem;
+}
+
+header .nav ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+header .nav ul li {
+  margin: 0 7%;
+  margin-top: auto;
+  margin-left: auto;
+  font-size: 0.9rem;
+}
+
+.files-ad {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.files-ad .files-ad__info {
+  text-align: center;
+  padding: .5rem;
+}
+
+.files-ad .files-ad__info h1 {
+  margin: 5% 0;
+  padding: 0 2%;
+  color: #070439;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.files-ad .files-ad__info p {
+  margin: 5% 0;
+  padding: 0 2%;
+  font-size: 1rem;
+}
+
+.files-ad .files-ad__info form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.files-ad .files-ad__info form .email {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2% 0;
+  border-radius: 4px;
+}
+
+.files-ad .files-ad__info form button {
+  margin: 2% 0;
+  width: 90%;
+  height: 2rem;
+  border: none;
+  background: #3065f8;
+  color: #f6f6fe;
+  -webkit-box-shadow: 2px 2px 7px 4px rgba(48, 101, 248, 0.2);
+          box-shadow: 2px 2px 7px 4px rgba(48, 101, 248, 0.2);
+  border-radius: 4px;
+  -webkit-transition: 250ms -webkit-box-shadow ease-in-out;
+  transition: 250ms -webkit-box-shadow ease-in-out;
+  transition: 250ms box-shadow ease-in-out;
+  transition: 250ms box-shadow ease-in-out, 250ms -webkit-box-shadow ease-in-out;
+}
+
+.files-ad .files-ad__info form button:hover {
+  -webkit-box-shadow: 12px 12px 14px 14px rgba(48, 101, 248, 0.2);
+          box-shadow: 12px 12px 14px 14px rgba(48, 101, 248, 0.2);
+}
+
+.files-ad .files-ad__image {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.files-ad .files-ad__image img {
+  width: 80%;
+}
+
+.productive-ad {
+  margin: 5% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-bottom: 5rem;
+  background-image: url("../images/bg-curve-mobile.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.productive-ad .productive-ad__info {
+  text-align: center;
+  padding: .5rem;
+}
+
+.productive-ad .productive-ad__info h1 {
+  margin: 5% 0;
+  padding: 0 2%;
+  color: #070439;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.productive-ad .productive-ad__info p {
+  margin: 5% 0;
+  padding: 0 2%;
+  font-size: 1rem;
+}
+
+.productive-ad .productive-ad__info .fylo-works {
+  margin: 0 auto;
+  border-bottom: 1px solid #3c9f8f;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 17%;
+  padding-bottom: .2rem;
+  margin-bottom: 2rem;
+}
+
+.productive-ad .productive-ad__info .fylo-works .fylo-works_link {
+  margin-right: 0.4rem;
+  color: #3c9f8f;
+  text-decoration: none;
+}
+
+.productive-ad .productive-ad__info .fylo-works .fylo-works_link img {
+  position: relative;
+  top: 0.2rem;
+}
+
+.productive-ad .productive-ad__info .fylo-article {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: .2rem;
+  border-radius: 5px;
+  padding: 1.2rem;
+  -webkit-box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background: #fff;
+  text-align: left;
+}
+
+.productive-ad .productive-ad__info .fylo-article .icon-quote {
+  width: 1rem;
+}
+
+.productive-ad .productive-ad__info .fylo-article p {
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #070439;
+}
+
+.productive-ad .productive-ad__info .fylo-article img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.productive-ad .productive-ad__info .fylo-article .fylo-article__avatar-info {
+  margin-left: 3rem;
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.productive-ad .productive-ad__info .fylo-article .fylo-article__avatar-info strong {
+  display: block;
+  font-size: 0.8rem;
+  color: #070439;
+  font-weight: 700;
+}
+
+.productive-ad .productive-ad__info .fylo-article .fylo-article__avatar-info small {
+  display: block;
+  font-size: 0.6rem;
+  color: #070439;
+}
+
+.productive-ad .productive-ad__image {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productive-ad .productive-ad__image img {
+  width: 80%;
+}
+
+.fylo-early-access {
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+  background: #585989;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.fylo-early-access h1 {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.fylo-early-access p {
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.fylo-early-access form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.fylo-early-access form .email {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  margin: .2rem;
+}
+
+.fylo-early-access form button {
+  width: 80%;
+  padding: .4rem;
+  margin: .2rem;
+  background: #3065f8;
+  color: #fff;
+  border: none;
+}
+
+.fylo-contact-us {
+  background: #070439;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 3rem;
+}
+
+.fylo-contact-us .logo {
+  width: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fylo-contact-us .fylo-contact-us__detail {
+  margin-bottom: .5rem;
+}
+
+.fylo-contact-us .fylo-contact-us__detail img {
+  margin-right: .5rem;
+}
+
+.fylo-contact-us .fylo-contact-us__detail small {
+  color: #fff;
+}
+
+.fylo-contact-us .contact-list {
+  list-style: none;
+  margin-bottom: .7rem;
+}
+
+.fylo-contact-us .contact-list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: .8rem;
+}
+
+.fylo-contact-us .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fylo-contact-us .social-icons a {
+  width: .5rem;
+  height: .5rem;
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.fylo-contact-us .social-icons a i {
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+}
+
+.fylo-contact-us .social-icons a:nth-child(1) i {
+  right: .65rem;
+}
+
+.fylo-contact-us .social-icons a:nth-child(2) i {
+  right: .45rem;
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    padding: 0;
+  }
+  header {
+    padding: 2rem;
+  }
+  header .nav {
+    padding-top: 2rem;
+  }
+  header .nav img {
+    width: 10rem;
+  }
+  header .nav ul {
+    width: auto;
+    bottom: auto;
+  }
+  header .nav ul li {
+    margin: 1rem 2rem 0 2rem;
+  }
+  .files-ad {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: 0 2rem 0 2rem;
+  }
+  .files-ad .files-ad__info {
+    text-align: unset;
+    width: 50%;
+    padding-bottom: 7%;
+  }
+  .files-ad .files-ad__info h1 {
+    font-size: 2.5rem;
+  }
+  .files-ad .files-ad__info p {
+    font-size: 1.2rem;
+  }
+  .files-ad .files-ad__info form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .files-ad .files-ad__info form .email {
+    display: inline-block;
+    width: 45%;
+    margin: 0 2rem 0 .5rem;
+    outline: none;
+    border: 2px solid #bfbfbf;
+  }
+  .files-ad .files-ad__info form .email.email::-webkit-input-placeholder {
+    padding-left: 1rem;
+  }
+  .files-ad .files-ad__info form .email.email:-ms-input-placeholder {
+    padding-left: 1rem;
+  }
+  .files-ad .files-ad__info form .email.email::-ms-input-placeholder {
+    padding-left: 1rem;
+  }
+  .files-ad .files-ad__info form .email.email::placeholder {
+    padding-left: 1rem;
+  }
+  .files-ad .files-ad__info form button {
+    display: inline-block;
+    width: 45%;
+  }
+  .files-ad .files-ad__image {
+    margin: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 50%;
+  }
+  .files-ad .files-ad__image img {
+    width: 100%;
+  }
+  .productive-ad {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0 2rem 0 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-image: url("../images/bg-curve-desktop.svg");
+    background-size: cover;
+    background-position: center;
+  }
+  .productive-ad .productive-ad__info {
+    text-align: left;
+    width: 50%;
+    margin-bottom: 1.5rem;
+  }
+  .productive-ad .productive-ad__info h1 {
+    font-size: 2.3rem;
+  }
+  .productive-ad .productive-ad__info p {
+    font-size: 1.2rem;
+  }
+  .productive-ad .productive-ad__info .fylo-works {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 5%;
+    margin: 0 0 0 1rem;
+  }
+  .productive-ad .productive-ad__info .fylo-article {
+    width: 60%;
+    margin: 4rem 1rem 3rem;
+  }
+  .productive-ad .productive-ad__image {
+    margin: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 50%;
+  }
+  .productive-ad .productive-ad__image img {
+    width: 100%;
+  }
+  .fylo-early-access {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  .fylo-early-access .fylo-early-access_info {
+    margin: 0 5rem 0 0;
+  }
+  .fylo-early-access h1 {
+    text-align: left;
+  }
+  .fylo-early-access p {
+    text-align: left;
+  }
+  .fylo-early-access form {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 40%;
+  }
+  .fylo-early-access form button {
+    width: 40%;
+  }
+  .fylo-contact-us {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*# sourceMappingURL=main.css.map */

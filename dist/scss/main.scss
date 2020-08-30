@@ -1,0 +1,323 @@
+@import 'config';
+
+header{
+    padding: 1rem;
+    margin: 0 auto;
+    .nav{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        position: relative;
+        margin-bottom: 5rem;
+        img{
+            width: 5rem;
+        }
+    
+        ul{
+            width: 50%; 
+            display: flex; 
+            align-items: flex-end;
+            list-style: none;
+            position: absolute;
+            right: 0;    
+            bottom: 0;    
+            
+    
+            li{
+                margin: 0 7%;
+                margin-top: auto;
+                margin-left: auto;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+.files-ad{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    .files-ad__info{
+        text-align: center;
+        padding: .5rem;
+        h1{
+            margin: 5% 0;
+            padding: 0 2%;
+            color: $primary-color-dark;
+            font-size: 1.5rem;
+            font-family: $heading-typo-callbacks;
+            font-weight: 700;
+        }
+
+        p{
+            margin: 5% 0;
+            padding: 0 2%;
+            font-size: 1rem;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+
+            .email{
+                display: block;
+                width: 90%;
+                height: 2rem;
+                align-items: center;
+                margin: 2% 0;
+                border-radius: 4px;
+             }
+
+             button{
+                margin: 2% 0;
+                 width: 90%;
+                 height: 2rem;
+                 border: none;
+                 background: $accent-blue;
+                 color: $neutral-grayish-blue;
+                 box-shadow: 2px 2px 7px 4px hsla(224, 93%, 58%,0.2);
+                 border-radius: 4px;
+                 transition: 250ms box-shadow ease-in-out;
+             }
+             button:hover{
+                box-shadow: 12px 12px 14px 14px hsla(224, 93%, 58%,0.2);
+             }
+
+
+        }
+    }
+
+    .files-ad__image{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 80%;
+        }
+    }
+}
+
+.productive-ad{
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 5rem;
+    background-image: url("../images/bg-curve-mobile.svg");
+        background-size: cover;
+        background-position: center;
+
+    .productive-ad__info{
+        text-align: center;
+        padding: .5rem;
+        h1{
+            margin: 5% 0;
+            padding: 0 2%;
+            color: $primary-color-dark;
+            font-size: 1.2rem;
+            font-family: $heading-typo-callbacks;
+            font-weight: 700;
+        }
+
+        p{
+            margin: 5% 0;
+            padding: 0 2%;
+            font-size: 1rem;
+        }
+
+        .fylo-works{
+            margin: 0 auto;
+            border-bottom: 1px solid $accent-cyan;
+            width: fit-content;
+            height: 17%;
+            padding-bottom: .2rem;
+            margin-bottom: 2rem;
+            .fylo-works_link{
+                margin-right: 0.4rem;
+                color: $accent-cyan;
+                text-decoration: none;
+                
+                img{
+                    position: relative;
+                    top: 0.2rem;
+                }
+            }
+        
+        }
+        .fylo-article{
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 2rem;
+            margin-bottom: .2rem;
+            border-radius: 5px;
+            padding: 1.2rem;
+            box-shadow: 2px 3px 5px 4px rgba(0,0,0,0.1);
+            position: relative;
+            background: #fff;
+            text-align: left;
+            .icon-quote{
+                width: 1rem;
+            }
+        
+            p{
+                padding-bottom: 1rem;
+                font-size: 0.8rem;
+                color: $primary-color-dark;
+            }
+            img{ 
+                width: 2rem;
+                border-radius: 50%;
+            }
+        
+            .fylo-article__avatar-info{
+                margin-left: 3rem;
+                position: absolute;    
+                bottom: 1.5rem;    
+                strong{
+                    display:block;
+                    font-size: 0.8rem;
+                    color: $primary-color-dark;
+                    font-weight: 700;
+                }
+                small{
+                    display: block;
+                    font-size: 0.6rem;
+                    color: $primary-color-dark;
+                }
+            }
+           
+        }
+    }
+
+    .productive-ad__image{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+        }
+    }
+
+}
+
+
+
+
+
+.fylo-early-access{
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+    background: $primary-color-saturated;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    
+    h1{
+        color: #fff;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    p{
+        color: #fff;
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .email{
+            display: block;
+            width: 80%;
+            padding: .4rem;
+            margin: .2rem;
+        }
+        button{
+            width: 80%;
+            padding: .4rem;
+            margin: .2rem;
+            background: $accent-blue;
+            color: #fff;
+            border: none;
+        }
+    }
+}
+
+.fylo-contact-us{
+    background: $primary-color-dark;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-top: 3rem;
+
+    .logo{
+        width: 5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .fylo-contact-us__detail{
+        margin-bottom: .5rem;
+        img{
+            margin-right: .5rem;
+        }
+        small{
+            color: #fff;
+        }
+    }
+
+    .contact-list{
+        list-style: none;
+        margin-bottom: .7rem;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: .8rem;
+        }
+    }
+
+    .social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+
+        a{   
+            width: .5rem;
+            height: .5rem;
+            padding: 1rem;
+            margin: .5rem;
+            border-radius: 50%;
+            color: #fff; 
+            border: 1px solid #fff;
+            position: relative;
+
+            i{
+                position: absolute;
+                bottom: .5rem;
+                right: .5rem;
+            }
+
+        }
+        a:nth-child(1){
+            i{
+                right: .65rem;
+            } 
+        }
+        a:nth-child(2){
+            i{
+                right: .45rem;
+            } 
+        }
+    }
+}
+@import 'responsive';
